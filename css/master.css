@@ -1,0 +1,52 @@
+*{
+  margin: 0px 0px;
+}
+
+h1{
+  margin: 0 auto;
+}
+
+nav{
+  text-align: center;
+  max-width: auto;
+  overflow:hidden;
+  background-color: #001733;
+  padding: 0px 4px 4px 4px;
+}
+
+nav a:nth-child(odd){
+  background-color: #003F87;
+}
+
+nav a:nth-child(even){
+  background-color: #0062D3;
+}
+
+nav a{
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+footer{
+  overflow:hidden;
+  background-color: #001733;
+  padding: 0px 4px 4px 4px;
+}
+
+footer p{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#left-footer{
+  text-align: left;
+}
+
+#right-footer{
+  text-align: right;
+}
