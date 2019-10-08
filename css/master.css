@@ -1,0 +1,26 @@
+header
+{
+  background-color: #a7c1d9;
+  color:white;
+}
+
+nav a
+{
+  color:#6ea4bf;
+/* Adds a fade effect when links are hovered on*/
+  transition:.5s;
+
+  /* Fade effect support for other browsers*/
+  -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+
+}
+
+/* Navigation links change color on hover*/
+nav a:hover
+{
+  background-color: #699bb5;
+  color:white;
+}
