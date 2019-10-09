@@ -9,6 +9,11 @@ header
   padding-left: 5px;
   padding-bottom:5px;
 }
+nav
+{
+  background-color: #e3ecf4;
+}
+
 nav a
 {
   background-color:#eaf4fc;
@@ -30,4 +35,9 @@ nav a:hover
 {
   background-color: #699bb5;
   color:white;
+}
+
+.bgColor
+{
+  background-color:#eaf4fc;
 }
