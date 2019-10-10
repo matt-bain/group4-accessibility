@@ -9,6 +9,16 @@ nav{
   background-color: #001733;
 }
 
+#headerText
+{
+
+font-weight:lighter;
+color:white;
+opacity:0.8;
+font-size: 50px;
+
+}
+
 nav a:nth-child(odd){
   background-color: #003F87;
 }
