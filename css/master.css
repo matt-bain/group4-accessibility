@@ -49,6 +49,12 @@ nav a{
 
 }
 
+/* Links change colour on hover*/
+nav a:hover{
+  background-color:white;
+  color: black;
+}
+
 footer{
   background-color: #001733;
 }
