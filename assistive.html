@@ -3,79 +3,81 @@
 
 <head>
   <link rel="stylesheet" href="css/master.css">
-  <!-- Add Bootsrap Framework for Card Component and grid layout-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta charset="utf-8">
+  <!--import bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--replace with webpage title-->
   <title>Assistive technology and adaptive technology</title>
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="row">
-        <!-- replace picsum with actual logo -->
-        <img class="col-2" src="https://picsum.photos/100" alt=""></img>
-        <!-- Title of all the pages. -->
-        <h1 class="col">Accessibility</h1>
-      </div>
-    </div>
+  <!-- header -->
+  <header class="container-fluid p-4 text-center">
+    <img class="logo" src="images/logo.png" alt=""></img>
+    <h1>Accessibility</h1>
   </header>
-  <!-- The navbar for each page. -->
-  <nav>
-    <a href="home.html">Home</a>
-    <a href="legislation.html">Legislation</a>
-    <a href="assistive.html">Assistive/Adaptive</a>
-    <a href="employment.html">Employment</a>
-    <a href="planning.html">Planning</a>
-    <a href="transport.html">Transportation</a>
-    <a href="housing.html">Housing</a>
-    <a href="disibility.html">Disability and IT</a>
-    <a href="education.html">Education</a>
-    <a href="references.html">References</a>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-dark navbar-expand-lg p-3">
+    <a id="navTitle" class="navbar-brand collapse navbar-nav" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse justify-content-center navbar-collapse navbar-nav" id="navbarNav">
+      <a href="home.html">Home</a>
+      <a href="legislation.html">Legislation</a>
+      <a href="assistive.html">Assistive/Adaptive</a>
+      <a href="employment.html">Employment</a>
+      <a href="planning.html">Planning</a>
+      <a href="transport.html">Transportation</a>
+      <a href="housing.html">Housing</a>
+      <a href="disibility.html">Disability/IT</a>
+      <a href="education.html">Education</a>
+      <a href="references.html">References</a>
+    </div>
   </nav>
 
-  <!-- Section containing all of this pages unique information. -->
-  <article>
-    <!-- Main heading of this page. -->
-    <h2>Assistive technology and adaptive technology</h2>
-    <div class="container">
-      <div class="row">
+  <main class="container">
+    <article class="row">
+      <!-- main section -->
+      <section class="col-lg-8 col-sm-6 p-4">
+        <h2>Assistive technology and adaptive technology</h2>
+        <p>Assistive technology is the creation of a new device that assists a person in completing a task that would otherwise be impossible. Some examples include new computer software programs like screen readers, and inventions such as assistive
+          listening devices, including hearing aids, and traffic lights with a standard color code that enables colorblind individuals to understand the correct signal.</p>
+        <p>Adaptive technology is the modification, or adaptation, of existing devices, methods, or the creation of new uses for existing devices, to enable a person to complete a task. Examples include the use of remote controls, and the
+          autocomplete (word completion) feature in computer word processing programs, which both help individuals with mobility impairments to complete tasks. move over soft surfaces, such as deep snow on ski hills, and sandy beaches.</p>
+        <p>Assistive technology and adaptive technology have a key role in developing the means for people with disabilities to live more independently, and to more fully participate in mainstream society. In order to have access to assistive or
+          adaptive technology, however, educating the public and even legislating requirements to incorporate this technology have been necessary.</p>
+      </section>
 
-        <!-- The main article of the page containing 3 paragraphs. -->
-        <section class="col-8">
-          <p>Assistive technology is the creation of a new device that assists a person in completing a task that would otherwise be impossible. Some examples include new computer software programs like screen readers, and inventions such as
-            assistive
-            listening devices, including hearing aids, and traffic lights with a standard color code that enables colorblind individuals to understand the correct signal.</p>
-
-          <p>Adaptive technology is the modification, or adaptation, of existing devices, methods, or the creation of new uses for existing devices, to enable a person to complete a task. Examples include the use of remote controls, and the
-            autocomplete
-            (word completion) feature in computer word processing programs, which both help individuals with mobility impairments to complete tasks. Adaptations to wheelchair tires are another example; widening the tires enables wheelchair users to
-            move
-            over soft surfaces, such as deep snow on ski hills, and sandy beaches.</p>
-
-          <p>Assistive technology and adaptive technology have a key role in developing the means for people with disabilities to live more independently, and to more fully participate in mainstream society. In order to have access to assistive or
-            adaptive technology, however, educating the public and even legislating requirements to incorporate this technology have been necessary.</p>
-        </section>
-
-        <!-- I have Used aside sematic tag for the card component, i can change this section if you guys want. -->
-        <!-- A section for the card bootsrap component caontaing an image and some text. -->
-        <Section class="col">
-          <div class="card" style="width: 18rem;">
-            <!-- !!!Temp imgage remove later!!! -->
-            <img src="https://picsum.photos/300" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">This Birmingham, West Midlands, Opportunities Fair was held to help persons with disabilities, and carers, to find out what services, support and opportunities are available to them.</p>
-            </div>
+      <!-- card -->
+      <div class="col-lg-4 col-sm-6 p-5">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Birmingham_opportunities_fair.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">This Birmingham, West Midlands, Opportunities Fair was held to help persons with disabilities, and carers, to find out what services, support and opportunities are available to them.</p>
           </div>
-        </Section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- footer -->
+  <footer class="container-fluid">
+    <div class="row p-1">
+      <div class="col-8">
+        <p id="left-footer">This webpage was created by: Gerda Ugne Pupelyté, Jamie Fergus, Matthew Bain, and Miklós Mayer</p>
+      </div>
+      <div class="col-4">
+        <p id="right-footer">University of Dundee 2019</p>
       </div>
     </div>
-  </article>
-  <!-- The footer for each page. -->
-  <footer>
-    <p id="left-footer">This webpage was created by: Gerda Ugne Pupelyté, Jamie Fergus, Matthew Bain, and Miklós Mayer</p>
-    <p id="right-footer">University of Dundee 2019</p>
   </footer>
-</body>
 
+  <!--import bootstrap JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
 </html>
