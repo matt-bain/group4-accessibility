@@ -31,12 +31,12 @@ nav a:nth-child(even){
 }
 
 nav a{
-  font-size: 18px;
+  font-size: 16px;
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   margin: 5px 5px;
-  padding: 5px 5px;
+  padding: 5px 10px;
 
   /* Adds a fade effect when links are hovered on*/
     transition:.5s;
