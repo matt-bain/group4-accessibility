@@ -1,0 +1,45 @@
+nav{
+  text-align: center;
+  overflow: hidden;
+  background-color: #001733;
+}
+
+nav a:nth-child(odd){
+  background-color: #003F87;
+}
+
+nav a:nth-child(even){
+  background-color: #0062D3;
+}
+
+nav a{
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+footer{
+  background-color: #001733;
+}
+
+footer p{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.logo{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+#left-footer{
+  text-align: left;
+}
+
+#right-footer{
+  text-align: right;
+}
