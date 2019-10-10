@@ -72,6 +72,8 @@ footer p{
   display: inline-block;
   width: 100px;
   height: 100px;
+  margin-left: 170px;
+  position: fixed;
 }
 
 #left-footer{
