@@ -71,9 +71,11 @@ footer p{
 }
 
 #left-footer{
+  font-size:14px;
   text-align: left;
 }
 
 #right-footer{
+  font-size:14px;
   text-align: right;
 }
