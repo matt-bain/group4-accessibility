@@ -1,17 +1,7 @@
-*{
-  margin: 0px 0px;
-}
-
-h1{
-  margin: 0 auto;
-}
-
 nav{
   text-align: center;
-  max-width: auto;
-  overflow:hidden;
+  overflow: hidden;
   background-color: #001733;
-  padding: 0px 4px 4px 4px;
 }
 
 nav a:nth-child(odd){
@@ -26,21 +16,24 @@ nav a{
   font-size: 18px;
   color: #FFFFFF;
   text-align: center;
-  padding: 10px 20px;
   text-decoration: none;
-  display: inline-block;
-  margin-top: 4px;
+  margin: 5px 5px;
+  padding: 5px 5px;
 }
 
 footer{
-  overflow:hidden;
   background-color: #001733;
-  padding: 0px 4px 4px 4px;
 }
 
 footer p{
   font-size: 18px;
   color: #FFFFFF;
+}
+
+.logo{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 }
 
 #left-footer{
