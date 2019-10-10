@@ -19,6 +19,15 @@ nav a{
   text-decoration: none;
   margin: 5px 5px;
   padding: 5px 5px;
+  
+  /* Adds a fade effect when links are hovered on*/
+  transition:.5s;
+
+  /* Fade effect support for other browsers*/
+  -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
 }
 
 footer{
