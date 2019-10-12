@@ -77,6 +77,10 @@ footer p{
   text-align: left;
 }
 
+.name {
+  letter-spacing: 1.5px;
+}
+
 #right-footer{
   font-size:14px;
   text-align: right;
