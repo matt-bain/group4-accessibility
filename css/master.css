@@ -2,7 +2,6 @@
 font-family: 'Open Sans', sans-serif;
 }
 
-
 nav{
   text-align: center;
   overflow: hidden;
@@ -11,18 +10,15 @@ nav{
 
 #headerText
 {
-
-font-weight:lighter;
-color:white;
-opacity:0.8;
-font-size: 50px;
-
+  font-weight:lighter;
+  color:white;
+  opacity:0.8;
+  font-size: 50px;
 }
 
 header{
   background-color: #0067e5;
 }
-
 
 /*Every second link has a different colour*/
 nav a:nth-child(odd){
@@ -44,8 +40,8 @@ nav a{
   /* Adds a fade effect when links are hovered on*/
     transition:.5s;
 
-    /* Fade effect support for other browsers*/
-    -o-transition:.5s;
+  /* Fade effect support for other browsers*/
+  -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
