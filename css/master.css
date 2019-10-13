@@ -79,6 +79,7 @@ footer p{
 
 .name {
   letter-spacing: 1.5px;
+  white-space: nowrap;
 }
 
 #right-footer{
