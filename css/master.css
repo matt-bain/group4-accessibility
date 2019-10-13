@@ -78,7 +78,8 @@ footer p{
 }
 
 .name {
-  letter-spacing: 1.5px;
+  display: inline-block;
+  padding-left: 16px;
   white-space: nowrap;
 }
 
