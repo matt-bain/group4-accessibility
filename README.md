@@ -1,2 +1,2 @@
 # group4-accessibility
-group repository for group 4’s webpage
+This is the repository for group 4’s webpage on Accessibility
