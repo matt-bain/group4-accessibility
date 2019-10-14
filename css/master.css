@@ -1,0 +1,102 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  text-align: center;
+  overflow: hidden;
+  background-color: #001733;
+}
+
+#headerText
+{
+  font-weight:lighter;
+  color:white;
+  opacity:0.8;
+  font-size: 50px;
+}
+
+header{
+  background-color: #0067e5;
+}
+
+/*Every second link has a different colour*/
+nav a:nth-child(odd){
+  background-color: #003F87;
+}
+
+nav a:nth-child(even){
+  background-color: #0062D3;
+}
+
+nav a{
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  padding: 5px 10px;
+
+  /* Adds a fade effect when links are hovered on*/
+    transition:.5s;
+
+  /* Fade effect support for other browsers*/
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+
+}
+
+/* Links change colour on hover*/
+nav a:hover{
+  background-color:white;
+  color: black;
+  text-decoration:none;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer{
+  background-color: #001733;
+}
+
+footer p{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.logo{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 170px;
+  position: fixed;
+}
+
+#copyrights{
+  font-size:14px;
+  text-align: left;
+}
+
+.name {
+  display: inline-block;
+  padding-left: 16px;
+  white-space: nowrap;
+}
+
+#right-footer{
+  font-size:14px;
+  text-align: right;
+}
+
+.bgColor{
+  background-color:#e8f2ff;
+}
