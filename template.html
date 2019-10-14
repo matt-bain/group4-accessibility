@@ -1,54 +1,83 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <link rel="stylesheet" href="css/master.css">
-    <meta charset="utf-8">
-    <title>Template</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="css/master.css">
+  <meta charset="utf-8">
 
-  <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- import Muli font here-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+  <!--import bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--replace with webpage title-->
+  <title>Home</title>
+</head>
 
-    <header>
-      <!-- replace picsum with actual logo -->
-      <img src="https://picsum.photos/100" alt=""></img>
-      <h1>Accessibility</h1>
-      <nav>
-        <a href="home.html">Home</a>
-        <a href="legislation.html">Legislation</a>
-        <a href="assistive.html">Assistive/Adaptive</a>
-        <a href="employment.html">Employment</a>
-        <a href="planning.html">Planning</a>
-        <a href="transport.html">Transportation</a>
-        <a href="housing.html">Housing</a>
-        <a href="disibility.html">Disability and IT</a>
-        <a href="education.html">Education</a>
-        <a href="references.html">References</a>
-      </nav>
-    </header>
+<body class="bgColor">
+  <header class="container-fluid p-4 text-center">
+    <img class="logo float-right img-fluid" src="images/logo.png" alt=""></img>
+    <h1 id="headerText" class="pt-3">Accessibility</h1>
+  </header>
 
+  <nav class="navbar navbar-dark navbar-expand-lg p-3">
+    <a id="navTitle" class="navbar-brand collapse navbar-nav" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse justify-content-center navbar-collapse navbar-nav" id="navbarNav">
+      <a href="home.html">Home</a>
+      <a href="legislation.html">Legislation</a>
+      <a href="assistive.html">Assistive/Adaptive</a>
+      <a href="employment.html">Employment</a>
+      <a href="planning.html">Planning</a>
+      <a href="transport.html">Transportation</a>
+      <a href="housing.html">Housing</a>
+      <a href="disibility.html">Disability/IT</a>
+      <a href="education.html">Education</a>
+      <a href="references.html">References</a>
+    </div>
+  </nav>
 
-    <main>
-      <article>
-        <h2>Whole number (e.g. 7 Disability, information technology (IT) and telecommunications)</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <section class="sub-section">
-          <h3>X.X (e.g. 7.1 Examples of common assistive technologies)</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <section class="sub-sub-section">
-            <h4>X.X.X (e.g. 7.1.4 Visual impairments)</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </section>
-        </section>
-      </article>
+  <main class="container">
+    <article class="row">
+      <div class="col-lg-8 col-sm-6 p-4">
+        <h2>Accessibility</h2>
+        <p>Accessibility in the sense considered here refers to the design of products, devices, services, or environments so as to be usable by people with disabilities. The concept of accessible design and practice of accessible development ensures
+          both "direct access" (i.e. unassisted) and "indirect access" meaning compatibility with a person's assistive technology (for example, computer screen readers).</p>
+        <p>Accessibility can be viewed as the "ability to access" and benefit from some system or entity. The concept focuses on enabling access for people with disabilities, or special needs, or enabling access through the use of assistive
+          technology; however, research and development in accessibility brings benefits to everyone.</p>
+        <p>Accessibility is not to be confused with usability, which is the extent to which a product (such as a device, service, or environment) can be used by specified users to achieve specified goals with effectiveness, efficiency and
+          satisfaction in a specified context of use.</p>
+        <p>Accessibility is strongly related to universal design which is the process of creating products that are usable by people with the widest possible range of abilities, operating within the widest possible range of situations. This is about
+          making things accessible to all people (whether they have a disability or not).</p>
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5">
+        <div class="card" style="width: 18rem;">
+          <img src="images/home-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Universal access is provided in Curitiba's public transport system, Brazil.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
 
-    </main>
+  <footer class="container-fluid">
+    <div class="row p-1">
+      <div class="col-8">
+        <p id="left-footer">This webpage was created by: Gerda Ugne Pupelyté, Jamie Fergus, Matthew Bain, and Miklós Mayer</p>
+      </div>
+      <div class="col-4">
+        <p id="right-footer">University of Dundee 2019</p>
+      </div>
+    </div>
+  </footer>
 
-    <footer>
-      <p id="left-footer">This webpage was created by: Gerda Ugne Pupelyté, Jamie Fergus, Matthew Bain, and Miklós Mayer</p>
-      <p id="right-footer">University of Dundee 2019</p>
-    </footer>
-
-  </body>
+  <!--import bootstrap JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 
 </html>
