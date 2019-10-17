@@ -116,6 +116,7 @@ footer p{
   text-align: left;
 }
 
+/* Make the names separated in the footer for readability */
 .name {
   display: inline-block;
   padding-left: 16px;
