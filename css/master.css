@@ -30,6 +30,10 @@ table{
   margin: 10px;
 }
 
+th{
+  background-color: #00008b;
+}
+
 td, th{
   padding: 5px 10px;
   border: 1px solid black;
