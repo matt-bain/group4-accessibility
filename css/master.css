@@ -25,6 +25,28 @@ header{
   background-color: #0067e5;
 }
 
+table{
+  color: #FFFFFF;
+  margin: 10px;
+}
+
+td, th{
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.tableHead {
+  text-align: center;
+}
+
+table tr:nth-child(odd){
+  background-color: #003F87;
+}
+
+table tr:nth-child(even){
+  background-color: #0062D3;
+}
+
 /*Every second link has a different colour*/
 nav a:nth-child(odd){
   background-color: #003F87;
@@ -40,7 +62,9 @@ nav a{
   text-align: center;
   text-decoration: none;
   margin: 5px 5px;
-  padding: 5px 10px;
+  padding: 5px 20px;
+
+  flex-grow: 1;
 
   /* Adds a fade effect when links are hovered on*/
     transition:.5s;
@@ -58,6 +82,13 @@ nav a:hover{
   background-color:white;
   color: black;
   text-decoration:none;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 main {
