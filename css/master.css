@@ -84,6 +84,8 @@ nav a{
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
+
+  flex-grow: 1;
 }
 
 /* Every second link has a different color */
