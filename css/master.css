@@ -1,18 +1,24 @@
+/*Applies font to entire website*/
 *{
   font-family: 'Open Sans', sans-serif;
 }
 
+/*affects the layout of the entire body of the page*/
 body {
   display: flex;
   flex-direction: column;
 }
 
+/*settings for the navigation bar*/
 nav{
   text-align: center;
   overflow: hidden;
   background-color: #001733;
 }
 
+/*settings for the header text
+  Affects all pages
+*/
 #headerText
 {
   font-weight:lighter;
@@ -21,24 +27,29 @@ nav{
   font-size: 50px;
 }
 
+/*sets the header background to blue*/
 header{
   background-color: #0067e5;
 }
 
+/*spaces the table away from other content and sets font color to white*/
 table{
   color: #FFFFFF;
   margin: 10px;
 }
 
+/*all table rows and columns will have padding and a black border*/
 td, th{
   padding: 5px 10px;
   border: 1px solid black;
 }
 
+/*Align text in the table header to the center*/
 .tableHead {
   text-align: center;
 }
 
+/*Every second table row has a different colour*/
 table tr:nth-child(odd){
   background-color: #003F87;
 }
@@ -56,6 +67,7 @@ nav a:nth-child(even){
   background-color: #0062D3;
 }
 
+/*navigation bar item settings*/
 nav a{
   font-size: 16px;
   color: #FFFFFF;
@@ -84,6 +96,7 @@ nav a:hover{
   text-decoration:none;
 }
 
+/*when page gets below a certain size, wrap the navbar to fit the screen size*/
 @media only screen and (min-width: 768px) {
   .nav-list {
     flex-wrap: wrap;
@@ -91,45 +104,55 @@ nav a:hover{
   }
 }
 
+/*keeps footer at the bottom of the page*/
 main {
     flex-grow: 1;
 }
 
+/*sets the footer colour on all pages*/
 footer{
   background-color: #001733;
 }
 
+/*makes the footer text white and a specific size*/
 footer p{
   font-size: 18px;
   color: #FFFFFF;
 }
 
+/*settings for the logo
+  makes it a specific size for use in the header
+*/
 .logo{
   display: inline-block;
   width: 100px;
   height: 100px;
   margin-right: 400px;
   margin-left: 155px;
-  position:absolute;
+  position: absolute;
 
 }
 
+/*left hand side of the footer*/
 #copyrights{
   font-size:14px;
   text-align: left;
 }
 
+/*specific settings for the names shown in the footer*/
 .name {
   display: inline-block;
   padding-left: 16px;
   white-space: nowrap;
 }
 
+/*right hand side of the footer*/
 #right-footer{
   font-size:14px;
   text-align: right;
 }
 
+/*entire page background colour*/
 .bgColor{
   background-color:#e8f2ff;
 }
