@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <link rel="stylesheet" href="css/master.css">
-    <meta charset="utf-8">
-    <title>Useful links</title>
-  </head>
+<head>
+  <!-- import css -->
+  <link rel="stylesheet" href="css/master.css">
+  <meta charset="utf-8">
 
-  <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- import Muli font here-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+  <!--import bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- webpage title -->
+  <title>See also</title>
+</head>
 
-    <header>
-      <!-- replace picsum with actual logo -->
-      <img src="https://picsum.photos/100" alt="">
-      <h1>Accessibility</h1>
-    </header>
+<body class="bgColor min-vh-100">
+  <!-- header containing website heading and logo (the same on every page)-->
+  <header class="container-fluid p-4 text-center">
+    <img class="logo d-none d-sm-inline-block float-right img-fluid" src="images/logo.png" alt="">
+    <h1 id="headerText" class="pt-3">Accessibility</h1>
+  </header>
 
-    <nav>
+  <!-- navbar containing a link to each page (the same on every page) -->
+  <nav class="navbar navbar-dark navbar-expand-md p-3">
+    <a id="navTitle" class="navbar-brand collapse navbar-nav" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-list collapse navbar-collapse navbar-nav" id="navbarNav">
       <a href="home.html">Home</a>
       <a href="legislation.html">Legislation</a>
       <a href="assistive.html">Assistive/Adaptive</a>
@@ -23,20 +36,20 @@
       <a href="planning.html">Planning</a>
       <a href="transport.html">Transportation</a>
       <a href="housing.html">Housing</a>
-      <a href="disibility.html">Disability and IT</a>
+      <a href="disability.html">Disability/IT</a>
       <a href="education.html">Education</a>
+      <a href="seealso.html">See Also</a>
       <a href="references.html">References</a>
-    </nav>
+    </div>
+  </nav>
 
+
+  <main class="container">
     <article>
-
+      <!-- main section containing links to other wikipedia pages -->
       <h2>See also</h2>
 
-
-      <div>
-
-      <ul>
-
+      <ul class="p=4">
         <li><a href="https://en.wikipedia.org/wiki/Accessible_publishing">Accessible publishing</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Assistive_technology">Assistive technology</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Accessible_toilet">Accessible toilet</a></li>
@@ -63,15 +76,21 @@
         <li><a href="https://en.wikipedia.org/wiki/Universal_design_for_instruction">Universal design for instruction</a></li>
 
       </ul>
-
-    </div>
     </article>
+  </main>
 
-    <footer>
-      <p id="left-footer">This webpage was created by: Gerda Ugnė Pupelytė, Jamie Fergus, Matthew Bain, and Miklós Mayer</p>
-      <p id="right-footer">University of Dundee 2019</p>
-    </footer>
+  <!-- footer containing our names and our university (the same on every page) -->
+  <footer class="container-fluid">
+    <div class="row p-1 align-middle">
+      <p class="col-8 h-auto my-3 px-4" id="copyrights">&copy; <span class="font-italic">This webpage was created by:</span><span class="name font-weight-bolder">Gerda Ugnė Pupelytė,</span><span class="name font-weight-bolder">Jamie Fergus,</span><span class="name font-weight-bolder">Matthew Bain,</span><span class="name font-weight-bolder">Miklós Mayer</span></p>
+      <p class="col-4 h-auto my-auto px-4" id="right-footer">University of Dundee 2019</p>
+    </div>
+  </footer>
 
-  </body>
+  <!--import bootstrap JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 
 </html>

@@ -1,3 +1,4 @@
+/* Colors for the webpage */
 :root{
   --light-background: #e8f2ff;
   --middle-background: #0067e5;
@@ -7,10 +8,12 @@
   --alternating-background-dark: #003F87;
 }
 
+/* Applies font to entire website*/
 *{
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Affects the layout of the entire body of the page */
 body {
   display: flex;
   flex-direction: column;
@@ -20,11 +23,15 @@ body {
   background-color: var(--light-background);
 }
 
-/* Header elements */
+/* HEADER ELEMENTS */
+
+/* Sets the header background --middle-background */
 header{
   background-color: var(--middle-background);
 }
 
+/* Settings for the header text
+   Affects all pages */
 #headerText {
   font-weight:lighter;
   color:white;
@@ -32,6 +39,8 @@ header{
   font-size: 50px;
 }
 
+/* Settings for the logo
+   Makes it a specific size for use in the header */
 .logo{
   display: inline-block;
   width: 100px;
@@ -41,32 +50,43 @@ header{
   position:absolute;
 }
 
-/* Navigation elements */
+/* NAVIGATION ELEMENTS */
+
+/* Settings for the navigation bar */
 nav{
   text-align: center;
   overflow: hidden;
   background-color: var(--dark-background);
 }
 
+/* When page gets below a certain size, wrap the navbar to fit the screen size */
+@media only screen and (min-width: 768px) {
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/* Navigation bar item settings */
 nav a{
   font-size: 16px;
   color: var(--light-font-color);
   text-align: center;
   text-decoration: none;
   margin: 5px 5px;
-  padding: 5px 10px;
+  padding: 5px 20px;
 
-  /* Adds a fade effect when links are hovered on*/
-    transition:.5s;
+  /* Adds a fade effect when links are hovered on */
+  transition:.5s;
 
-  /* Fade effect support for other browsers*/
+  /* Fade effect support for other browsers */
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
 }
 
-/* Every second link has a different color*/
+/* Every second link has a different color */
 nav a:nth-child(odd){
   background-color: var(--alternating-background-dark);
 }
@@ -75,24 +95,28 @@ nav a:nth-child(even){
   background-color: var(--alternating-background-light);
 }
 
-/* Links change colour on hover*/
+/* Links change colour on hover */
 nav a:hover{
-  background-color:white;
+  background-color: white;
   color: black;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-/* Table elements */
+/* TABLE ELEMENTS */
+
+/* Spaces the table away from other content and sets font color to --light-font-color */
 table{
   color: var(--light-font-color);
   margin: 10px;
 }
 
+/* All table rows and columns will have padding and a black border */
 td, th{
   padding: 5px 10px;
   border: 1px solid black;
 }
 
+/* Align text in the table header to the center */
 .tableHead {
   text-align: center;
 }
@@ -106,20 +130,25 @@ table tr:nth-child(even){
   background-color: var(--alternating-background-light);
 }
 
+/* FOOTER ELEMENTS */
+
+/* Keeps footer at the bottom of the page */
 main {
     flex-grow: 1;
 }
 
+/* Sets the footer color on all pages */
 footer{
   background-color: var(--dark-background);
 }
 
-/* Footer elements */
+/* Makes the footer text --light-font-color and a specific size */
 footer p{
   font-size: 18px;
   color: var(--light-font-color);
 }
 
+/* Left hand side of the footer */
 #copyrights{
   font-size:14px;
   text-align: left;
@@ -132,6 +161,7 @@ footer p{
   white-space: nowrap;
 }
 
+/* Right hand side of the footer */
 #right-footer{
   font-size:14px;
   text-align: right;

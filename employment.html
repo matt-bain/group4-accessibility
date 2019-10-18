@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <!-- import css -->
   <link rel="stylesheet" href="css/master.css">
   <meta charset="utf-8">
 
@@ -10,24 +11,24 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
   <!--import bootstrap css-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--replace with webpage title-->
+  <!-- webpage title -->
   <title>Employment</title>
 </head>
 
 <body class="bgColor min-vh-100">
-  <!-- header -->
+  <!-- header containing website heading and logo (the same on every page)-->
   <header class="container-fluid p-4 text-center">
     <img class="logo d-none d-sm-inline-block float-right img-fluid" src="images/logo.png" alt="">
     <h1 id="headerText" class="pt-3">Accessibility</h1>
   </header>
 
-  <!-- navbar -->
-  <nav class="navbar navbar-dark navbar-expand-lg p-3">
+  <!-- navbar containing a link to each page (the same on every page) -->
+  <nav class="navbar navbar-dark navbar-expand-md p-3">
     <a id="navTitle" class="navbar-brand collapse navbar-nav" href="#">Navigation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse justify-content-center navbar-collapse navbar-nav" id="navbarNav">
+    <div class="nav-list collapse navbar-collapse navbar-nav" id="navbarNav">
       <a href="home.html">Home</a>
       <a href="legislation.html">Legislation</a>
       <a href="assistive.html">Assistive/Adaptive</a>
@@ -35,16 +36,17 @@
       <a href="planning.html">Planning</a>
       <a href="transport.html">Transportation</a>
       <a href="housing.html">Housing</a>
-      <a href="disibility.html">Disability/IT</a>
+      <a href="disability.html">Disability/IT</a>
       <a href="education.html">Education</a>
+      <a href="seealso.html">See Also</a>
       <a href="references.html">References</a>
     </div>
   </nav>
 
   <main class="container">
     <article class="row">
-      <!-- main section -->
-      <section class="col-lg-8 col-md-7 p-4">
+      <!-- main section contain the information on the page -->
+      <div class="col-lg-8 col-md-7 p-4">
         <h2>Employment</h2>
         <p>Accessibility of employment covers a wide range of issues, from skills training, to occupational therapy, finding employment, and retaining employment.</p>
         <p>Employment rates for workers with disabilities are lower than for the general workforce. Workers in Western countries fare relatively well, having access to more services and training as well as legal protections against employment discrimination. Despite this, in the United States the 2012 unemployment rate for workers with disabilities was 12.9%, while it was 7.3% for workers without disabilities. More than half of workers with disabilities (52%) earned less than $25,000 in the previous year, compared with just 38% of workers with no disabilities. This translates into an earnings gap where individuals with disabilities earn about 25 percent less of what workers without disabilities earn.Among occupations with 100,000 or more people, dishwashers had the highest disability rate (14.3%), followed by refuse and recyclable material collectors (12.7%), personal care aides (11.9%), and janitors and building cleaners (11.8%). The rates for refuse and recyclable material collectors, personal care aides, and janitors and building cleaners were not statistically different from one another.</p>
@@ -52,9 +54,9 @@
         <p>Expenses related to adaptive or assistive technology required to participate in the workforce may be tax deductible expenses for individuals with a medical practitioner's prescription in some jurisdictions.</p>
       </div>
 
-      <!-- card -->
-      <div class="col-lg-4 col-sm-6 p-5">
-        <div class="card mt-4 mb-5" style="width: 18rem;">
+      <!-- card containg an image and some text about the image -->
+      <div class="col-lg-4 col-md-5 p-5">
+        <div class="card mt-4 mb-5">
           <img src="images/Usda_hiring_applicants_with_disabilities.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text text-center">William P. Milton, Jr., Deputy Director, Office of Human Resources Management explained the “Four Easy Steps to Hiring Qualified Applicants with Disabilities” to United States Department of Agriculture employees during a 2011 National Disability Employment Awareness Month event in Washington, DC, USA.</p>
@@ -62,7 +64,7 @@
         </div>
       </div>
 
-      <!-- other section -->
+      <!-- other section containing more information on the page -->
       <section class="col-lg-12 col-sm-12 p-4">
         <h3>Meeting and conference access</h3>
         <p>Meetings and conferences should consider the needs of all of their participants. Checklists such as this may make it easier to identify specific needs:</p>
@@ -102,11 +104,11 @@
     </article>
   </main>
 
-  <!-- footer -->
+  <!-- footer containing our names and our university (the same on every page) -->
   <footer class="container-fluid">
     <div class="row p-1 align-middle">
-      <p class="col-8 h-auto my-3 px-4" id="copyrights">&copy; <span class="font-italic">This webpage was created by:</span><span class="name font-weight-bolder">Gerda Ugne Pupelyté,</span><span class="name font-weight-bolder">Jamie Fergus,</span><span class="name font-weight-bolder">Matthew Bain,</span><span class="name font-weight-bolder">Miklós Mayer</span></p>
-      <p class="col-4 h-auto my-3 px-4" id="right-footer">University of Dundee 2019</p>
+      <p class="col-8 h-auto my-3 px-4" id="copyrights">&copy; <span class="font-italic">This webpage was created by:</span><span class="name font-weight-bolder">Gerda Ugnė Pupelytė,</span><span class="name font-weight-bolder">Jamie Fergus,</span><span class="name font-weight-bolder">Matthew Bain,</span><span class="name font-weight-bolder">Miklós Mayer</span></p>
+      <p class="col-4 h-auto my-auto px-4" id="right-footer">University of Dundee 2019</p>
     </div>
   </footer>
 
